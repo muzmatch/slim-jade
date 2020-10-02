@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "kylekatarnls/jade-php": "^1.3",
+        "kylekatarnls/jade-php": "dev-feature/test",
 		"slim/slim": "~2.0",
 		"slim/views": "0.1.*"
     },
@@ -25,5 +25,11 @@
         "psr-4": {
             "Jlndk\\SlimJade\\": "src"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/muzmatch/jade-php"
+        }
+    ]
 }
